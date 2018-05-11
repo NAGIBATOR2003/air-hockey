@@ -6,28 +6,6 @@ from kivy.vector import Vector
 from kivy.clock import Clock
 
 
-
-
-#def pause():
- #   paused = True
-  #  message_to_screen("Paused", black, -100, size="large")
-   # message_to_screen("Press c to continue , q to quit", black, 25)
-    #pygame.display.update()
-    #while paused:
-     #   for event in pygame.event.get():
-      #      if event.type == pygame.QUIT:
-       #         pygame.quit()
-        #        quit()
-#
- #           if event.type == pygame.KEYDOWN:
-  #              if event.key == pygame.K_c:
-   #                 paused = False
-#
- #               elif event.key == pygame.K_q:
-  ##                 quit()
-    #    # gameDisplay.fill(white)
-     #   clock.tick(5)
-
 class PongPaddle(Widget):
     score = NumericProperty(0)
 
@@ -59,7 +37,7 @@ class PongGame(Widget):
     player2 = ObjectProperty(None)
     btn = ObjectProperty(None)
 
-    def serve_ball(self, vel=(0, 0)):
+    def serve_ball(self, vel=(4, 0)):
         self.ball.center = self.center
         self.ball.velocity = vel
 
@@ -90,7 +68,6 @@ class PongGame(Widget):
                 self.serve_ball(vel=(-4, 0))
             else:
                 self.ball.velocity_x *= -1
-
 
     def on_touch_move(self, touch):
         if touch.x < self.width / 2:
