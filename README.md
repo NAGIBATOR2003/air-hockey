@@ -5,7 +5,7 @@ In this game there are 2 paddles and a puck. To move each paddle drag it with mo
 
 For playing this game Python3 and Kivy 1.10.0 are required. Just run the app in any Python IDE.
 
-https://kivy.org/#download
+https://kivy.org/#download,
 https://www.python.org/getit/
 
 While writing this program Pong Game Tutorial (https://kivy.org/docs/tutorials/pong.html) was used.
