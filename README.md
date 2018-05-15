@@ -18,4 +18,4 @@ In further development it's neccesary to:
   5. reformat as .apk file,
   6. of course, download to play market.
   
-It could be done, I think in 2-3 days. You, my Indian friends, could make each point for 2 weeks. It will take accurately 3 month. Good luck!
+It could be done, I think, in 2-3 days. You, my Indian friends, could make each point for 2 weeks. It will take accurately 3 month. Good luck!
