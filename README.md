@@ -11,7 +11,7 @@ https://www.python.org/getit/
 While writing this program Pong Game Tutorial (https://kivy.org/docs/tutorials/pong.html) was used.
 
 In further development it's neccesary to:
-  1. write normal function of bouncing of a puck. Unfortunately, I didn't realized how to make it. Consider friction force in way like self.ball.velocity -= const*self.ball.velocity, 
+  1. write normal function of bouncing of a puck. Unfortunately, I didn't realized how to make it. Consider friction force in way like self.ball.velocity -= const*self.ball.velocity. Because of descrete value of dt puck can tunnel through the paddle. To solve it use velocity limit equaled paddle size over dt (50/(1/600)), 
   2. draw beatiful pictures for better game invironment,
   3. make user-friendly interface with menu,
   4. make a bot for playing alone (for example, paddle moves to the location of puck with constant speed),
